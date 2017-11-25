@@ -1,0 +1,110 @@
+
+body {
+	background-image: url("../images/background.jpg");
+
+}
+
+.header{
+	width: 100%
+	background-color:grey;
+}
+
+#wrapper {
+width: 100%
+max-width:960px;
+		
+}
+
+#instructions {
+	background-color: gold;
+	text-decoration-color: bold, white;
+	width: 85%; 
+	margin-left: 80px;
+	margin: 2px;
+	margin-top: 30px;
+	text-align: center;
+	padding: 10px;
+}
+
+#guessingNumber {
+	background-color: green;
+	float: left;
+	display: inline-block;
+	padding: 30px;
+	margin-top: 20px;
+	border-radius :10px;
+}
+
+#scoreboard {
+	background-color: #03A9F4;
+	display: inline-block;
+	padding: 15px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	border-radius: 25px;
+
+}
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+
+.crystalImage {
+	height: 111px;
+	border: solid 1px grey;
+	margin-left: 10px;
+	border-radius: 15px;
+}
+
+
+
+#totalScore {
+	margin-bottom: 50px;
+	border-radius: 60px;
+	
+
+}
+.footer {
+	width: 100%
+	padding:5px;
+	text-align: center;
+}
+
+#yts {
+	background: #009688;
+	display: inline;
+	padding: 20px;
+	border: solid 1px #ddd
+}
+@media only screen and (min-width: 768px){
+	body{
+		background-image:url("../images/background.jpg");
+			width: auto;
+			height: auto;
+			margin: 1px;
+			padding: 10px;
+		}
+	
+@media only screen and (max-width: 767px){
+	body{
+		background-image: url("../images/background.jpg");
+			width: auto;
+			height: auto;
+			margin: 1px;
+			padding: 10px;
+	}
+	}
+@media only screen(max-width: 767px) and (orientation: portrait){
+	body{
+		background-image: url("../images/background.jpg");
+			width: auto;
+			height: auto;
+			margin: 1px;
+			padding: 10px;
+	
+	}
+	
+	
